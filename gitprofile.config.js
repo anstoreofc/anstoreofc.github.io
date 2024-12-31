@@ -6,21 +6,19 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 15, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    twitter: 'Zeeoneofc',
-    instagram: 'Zeeoneofc',
-    dev: 'Zeeoneofc',
-    website: 'https://api.zeeoneofc.my.id',
-    phone: '+62887435047326',
-    email: 'zeeoneofc@yahoo.com',
+    instagram: 'dapamd.my',
+    website: 'https://dapamd.my.id',
+    phone: '+62895606423692',
+    email: 'dapamd@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://github.zeeoneofc.my.id', // Empty fileUrl will hide the `Download Resume` button.
+      'https://dapamd.my.id', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Copas',
@@ -39,16 +37,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'UPT SMAN 6 SINJAI',
+      institution: 'SMK Negeri 1 Pemalang',
       degree: 'Student',
-      from: '2018',
-      to: '2021',
+      from: '2022',
+      to: '2025',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'zeeoneofc', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -60,7 +58,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'night',
+    defaultTheme: 'cupcake',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

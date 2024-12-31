@@ -217,7 +217,7 @@ const GitProfile = ({ config }) => {
                 <div className="card compact bg-base-100 shadow">
                   <a
                     className="card-body"
-                    href="https://youtube.com/c/@zeeoneofc"
+                    href="https://dapamd.my.id"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -226,8 +226,8 @@ const GitProfile = ({ config }) => {
                         skeleton({ width: 'w-52', height: 'h-6' })
                       ) : (
                         <p className="font-mono text-sm">
-                          Made with{' '}
-                          <span className="text-primary">Zeeoneofc</span> and
+                          Made by{' '}
+                          <span className="text-primary">Dapa MD</span> with
                           ❤️
                         </p>
                       )}
